@@ -32,17 +32,3 @@ public class Problem2 extends BaseClass {
         System.out.println("");
         System.out.println("______________________________________");
     }
-
-    public static void main(String[] args) {
-        final String ucid = "mt85"; // <-- change to your UCID
-        // no edits below this line
-        printHeader(ucid, 2);
-        sumValues(array1, 1);
-        sumValues(array2, 2);
-        sumValues(array3, 3);
-        sumValues(array4, 4);
-        sumValues(array5, 5);
-        printFooter(ucid, 2);
-
-    }
-}
